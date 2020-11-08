@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+          <!-- all other page content -->
+          <div class="header">
+              <img>
+            <h1 style="color: rgb(255, 137, 58)"><b>PC</b></h1><h1 style="color: white;"><b>MAX</b></h1>
+            <div class="navBar">
+             <ul>
+              <li><a href="home.html" id="navHome">Store</a></li>
+              <li><a href="contact.html" id="navContact">Cart</a></li>
+              <li><a href="about.html" id="navAbout">Login</a></li>
+              <li><a href="shop.html" id="navShop">Signup</a></li>
+             </ul>	
+             </div>
+            </div>
+
+    <form action="action_page.php" method="post" style="margin-top: 95px;">
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form> 
+      <footer class="footer">
+        <p>Social Media</p>
+        <spans><a href="https://www.facebook.com/"><img src="facebook logo.jpg" width="50" height="50"></a>
+            <a href="https://twitter.com/?lang=en"><img src="twitter logo.png" width="42" height="42" style="margin-bottom: 4px;"></a>
+            <a href="https://www.instagram.com/?hl=en"><img src="instagram logo.png" width="42" height="42" style="margin-bottom: 4px; margin-left: 5px;"></span></a>
+    </footer>
+</body>
+</html>
